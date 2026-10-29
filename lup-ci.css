@@ -1,0 +1,43 @@
+/* =============================================================
+   LUP STUDIOS – Corporate Identity  (VERBINDLICH FÜR ALLE TOOLS)
+   -------------------------------------------------------------
+   Diese Datei ist die zentrale Wahrheitsquelle für das Aussehen
+   JEDES LUP-Tools. Änderungen hier wirken überall, wo sie
+   eingebunden ist. Nicht pro Tool abweichen.
+
+   CI-Quelle: lup-studios-identity
+   Hauptfarbe Schwarz · Marineblau #103a5e · Stahlblau #356897
+   Text Weiss · Schrift Montserrat
+   ============================================================= */
+:root{
+  /* --- Marken-Grundfarben (nicht verhandelbar) --- */
+  --lup-black:#000000;
+  --lup-navy:#103a5e;      /* Marineblau  */
+  --lup-steel:#356897;     /* Stahlblau   */
+  --lup-white:#ffffff;
+
+  /* --- Dunkles Tool-Theme, abgeleitet aus der CI --- */
+  --ink:#04070d;                 /* Seiten-Hintergrund (praktisch schwarz) */
+  --navy:#0a1a29;                /* leicht erhöhte Ebene */
+  --panel:#0e2237;               /* Karten/Panels – marineblau getönt */
+  --line:rgba(255,255,255,.10);
+  --line-strong:rgba(255,255,255,.20);
+  --paper:#ffffff;               /* Haupttext weiss */
+  --muted:#9fb2c6;               /* Sekundärtext */
+  --muted-2:#6d8299;             /* Hinweise */
+
+  /* Akzente – Stahlblau-Familie (für dunklen Grund optimiert) + Marineblau */
+  --hook:#4a86c4;                /* Primär-Akzent / Highlights (helles Stahlblau) */
+  --hook-soft:rgba(74,134,196,.16);
+  --cta:#356897;                 /* Sekundär-Aktion = Stahlblau (offiziell) */
+  --cta-soft:rgba(53,104,151,.18);
+  --play:#356897;                /* frühere Sonderfarbe -> CI-konform Stahlblau */
+
+  /* Funktionale Statusfarben (keine Markenfarben, nur Zustände) */
+  --ok:#39C27C;
+  --danger:#e0554f;
+
+  /* Schriften – Montserrat immer */
+  --font:'Montserrat',system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,monospace;
+}
